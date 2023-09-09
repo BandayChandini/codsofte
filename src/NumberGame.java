@@ -14,7 +14,7 @@ class Gaming{
         this.noOfGuesses = noOfGuesses;
     }
 
-    Gaming(){
+    Gaming(){ 
         Random rand = new Random();
         this.generatednumber = rand.nextInt(100);
     }
